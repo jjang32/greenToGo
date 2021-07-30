@@ -1,0 +1,230 @@
+2021-07-30 00:24:16,737 [INFO] Local Date and Time: 2021-07-30T00:24:16.736563
+2021-07-30 00:24:16,741 [INFO] JDK from "JAVA_HOME" - /Library/Java/JavaVirtualMachines/liberica-jdk-14.jdk/Contents/Home
+2021-07-30 00:24:16,780 [INFO] CodeRunner(tm) Backendless Debugging Utility
+2021-07-30 00:24:16,781 [INFO] Copyright(C) 2021 Backendless Corp. All rights reserved. 
+2021-07-30 00:24:16,781 [INFO] Build date: 2021-07-28T06:43:30Z
+Version: 6.4.5
+Build id: 214281
+VCS revision: 428faba86095675360683d3a9e3d668dce31ee06
+2021-07-30 00:24:16,782 [INFO] CodeRunner session is running for 2 hours and will be terminated on 02:24:16.781862[UTC]
+2021-07-30 00:24:16,806 [INFO] Management port is absent, management server not started
+2021-07-30 00:24:16,934 [INFO] Parsing event model...
+2021-07-30 00:24:17,351 [INFO] Path to jar file: '../libs/servlet-api-2.5.jar'
+2021-07-30 00:24:17,351 [INFO] Path to jar file: '../libs/javase-3.3.2.jar'
+2021-07-30 00:24:17,365 [INFO] Path to jar file: '../libs/backendless.jar'
+2021-07-30 00:24:17,365 [INFO] Path to jar file: '../libs/core-3.3.2.jar'
+2021-07-30 00:24:17,405 [INFO] In target directory '../libs' present 4 jar files
+2021-07-30 00:24:17,405 [INFO] Service classes size from libs: 0
+2021-07-30 00:24:17,406 [INFO] Service classes size from classes: 0
+2021-07-30 00:24:17,407 [INFO] Service classes is empty
+2021-07-30 00:24:17,431 [INFO] Build successfully: 0 event handlers and 0 timers and 0 services
+2021-07-30 00:24:17,433 [WARN] IMPORTANT! The business logic code will be deployed to model "default".
+Any business logic which is already deployed on the server in that model
+will be removed and replaced with the code from your current project.
+If this is an undesired behavior, stop now and set a different deployment model
+either by using the -model argument or changing the model name in runner.properties.
+2021-07-30 00:24:19,495 [INFO] Publishing 0 event handlers and 0 timers and 0 services to the server… 
+2021-07-30 00:24:22,421 [ERROR] Can not parse generic service: Failed to inspect service archive file.
+BackendlessServerException: Undefined error
+Cause: Exception
+[CodeRunnerError]  Code: 0;  Msg: Could not find any code to be deployed to Backendless at 'b5476da3-1917-729f-ff82-c4df130c3800/files/servercode/JAVA/default/tmp1627604661772/libs' or 'b5476da3-1917-729f-ff82-c4df130c3800/files/servercode/JAVA/default/tmp1627604661772/classes'. Did you compile the project?;  Class: class com.backendless.coderunner.commons.exception.CodeRunnerException
+2021-07-30 00:24:22,422 [INFO] Debugging Utility disconnected successfully
+2021-07-30 00:24:22,423 [INFO] Thank you for using Backendless
+2021-07-30 00:26:03,167 [INFO] Local Date and Time: 2021-07-30T00:26:03.166017
+2021-07-30 00:26:03,174 [INFO] JDK from "JAVA_HOME" - /Library/Java/JavaVirtualMachines/liberica-jdk-14.jdk/Contents/Home
+2021-07-30 00:26:03,221 [INFO] CodeRunner(tm) Backendless Debugging Utility
+2021-07-30 00:26:03,222 [INFO] Copyright(C) 2021 Backendless Corp. All rights reserved. 
+2021-07-30 00:26:03,223 [INFO] Build date: 2021-07-28T06:43:30Z
+Version: 6.4.5
+Build id: 214281
+VCS revision: 428faba86095675360683d3a9e3d668dce31ee06
+2021-07-30 00:26:03,223 [INFO] CodeRunner session is running for 2 hours and will be terminated on 02:26:03.223451[UTC]
+2021-07-30 00:26:03,245 [INFO] Management port is absent, management server not started
+2021-07-30 00:26:03,417 [INFO] Parsing event model...
+2021-07-30 00:26:03,830 [INFO] Path to jar file: '../libs/servlet-api-2.5.jar'
+2021-07-30 00:26:03,831 [INFO] Path to jar file: '../libs/javase-3.3.2.jar'
+2021-07-30 00:26:03,842 [INFO] Path to jar file: '../libs/backendless.jar'
+2021-07-30 00:26:03,842 [INFO] Path to jar file: '../libs/core-3.3.2.jar'
+2021-07-30 00:26:03,878 [INFO] In target directory '../libs' present 4 jar files
+2021-07-30 00:26:03,879 [INFO] Service classes size from libs: 0
+2021-07-30 00:26:03,881 [INFO] Service classes size from classes: 1
+2021-07-30 00:26:03,883 [INFO] Run dependency analyzer for app: B5476DA3-1917-729F-FF82-C4DF130C3800
+ClassPath: /Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/servlet-api-2.5.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/javase-3.3.2.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/backendless.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/core-3.3.2.jar
+2021-07-30 00:26:03,884 [INFO] Analyze service: com.greentogo.services.QRCodeGenerator
+2021-07-30 00:26:04,053 [INFO] Build successfully: 0 event handlers and 0 timers and 1 service
+2021-07-30 00:26:04,054 [WARN] IMPORTANT! The business logic code will be deployed to model "default".
+Any business logic which is already deployed on the server in that model
+will be removed and replaced with the code from your current project.
+If this is an undesired behavior, stop now and set a different deployment model
+either by using the -model argument or changing the model name in runner.properties.
+2021-07-30 00:26:05,200 [INFO] Publishing 0 event handlers and 0 timers and 1 service to the server… 
+2021-07-30 00:26:08,186 [INFO] Successfully published all event handlers and timers. 
+2021-07-30 00:26:08,186 [INFO] If you connected to coderunner for debug - please stop debugging
+2021-07-30 00:26:08,186 [INFO] CodeRunner will shutdown now
+2021-07-30 00:26:08,187 [INFO] Debugging Utility disconnected successfully
+2021-07-30 00:26:08,188 [INFO] Thank you for using Backendless
+2021-07-30 02:10:25,418 [INFO] Local Date and Time: 2021-07-30T02:10:25.417761
+2021-07-30 02:10:25,424 [INFO] JDK from "JAVA_HOME" - /Library/Java/JavaVirtualMachines/liberica-jdk-14.jdk/Contents/Home
+2021-07-30 02:10:25,466 [INFO] CodeRunner(tm) Backendless Debugging Utility
+2021-07-30 02:10:25,467 [INFO] Copyright(C) 2021 Backendless Corp. All rights reserved. 
+2021-07-30 02:10:25,468 [INFO] Build date: 2021-07-28T06:43:30Z
+Version: 6.4.5
+Build id: 214281
+VCS revision: 428faba86095675360683d3a9e3d668dce31ee06
+2021-07-30 02:10:25,469 [INFO] CodeRunner session is running for 2 hours and will be terminated on 04:10:25.469101[UTC]
+2021-07-30 02:10:25,491 [INFO] Management port is absent, management server not started
+2021-07-30 02:10:25,656 [INFO] Parsing event model...
+2021-07-30 02:10:26,075 [INFO] Path to jar file: '../libs/servlet-api-2.5.jar'
+2021-07-30 02:10:26,076 [INFO] Path to jar file: '../libs/javase-3.3.2.jar'
+2021-07-30 02:10:26,088 [INFO] Path to jar file: '../libs/backendless.jar'
+2021-07-30 02:10:26,088 [INFO] Path to jar file: '../libs/core-3.3.2.jar'
+2021-07-30 02:10:26,127 [INFO] In target directory '../libs' present 4 jar files
+2021-07-30 02:10:26,127 [INFO] Service classes size from libs: 0
+2021-07-30 02:10:26,130 [INFO] Service classes size from classes: 1
+2021-07-30 02:10:26,132 [INFO] Run dependency analyzer for app: B5476DA3-1917-729F-FF82-C4DF130C3800
+ClassPath: /Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/servlet-api-2.5.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/javase-3.3.2.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/backendless.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/core-3.3.2.jar
+2021-07-30 02:10:26,133 [INFO] Analyze service: com.greentogo.services.QRCodeGenerator
+2021-07-30 02:10:26,306 [INFO] Build successfully: 0 event handlers and 0 timers and 1 service
+2021-07-30 02:10:26,307 [WARN] IMPORTANT! The business logic code will be deployed to model "default".
+Any business logic which is already deployed on the server in that model
+will be removed and replaced with the code from your current project.
+If this is an undesired behavior, stop now and set a different deployment model
+either by using the -model argument or changing the model name in runner.properties.
+2021-07-30 02:10:27,251 [INFO] Publishing 0 event handlers and 0 timers and 1 service to the server… 
+2021-07-30 02:10:30,400 [INFO] Successfully published all event handlers and timers. 
+2021-07-30 02:10:30,400 [INFO] If you connected to coderunner for debug - please stop debugging
+2021-07-30 02:10:30,400 [INFO] CodeRunner will shutdown now
+2021-07-30 02:10:30,401 [INFO] Debugging Utility disconnected successfully
+2021-07-30 02:10:30,402 [INFO] Thank you for using Backendless
+2021-07-30 02:11:13,856 [INFO] Local Date and Time: 2021-07-30T02:11:13.855470
+2021-07-30 02:11:13,863 [INFO] JDK from "JAVA_HOME" - /Library/Java/JavaVirtualMachines/liberica-jdk-14.jdk/Contents/Home
+2021-07-30 02:11:13,910 [INFO] CodeRunner(tm) Backendless Debugging Utility
+2021-07-30 02:11:13,910 [INFO] Copyright(C) 2021 Backendless Corp. All rights reserved. 
+2021-07-30 02:11:13,911 [INFO] Build date: 2021-07-28T06:43:30Z
+Version: 6.4.5
+Build id: 214281
+VCS revision: 428faba86095675360683d3a9e3d668dce31ee06
+2021-07-30 02:11:13,912 [INFO] CodeRunner session is running for 2 hours and will be terminated on 04:11:13.912060[UTC]
+2021-07-30 02:11:13,932 [INFO] Management port is absent, management server not started
+2021-07-30 02:11:14,090 [INFO] Parsing event model...
+2021-07-30 02:11:14,473 [INFO] Path to jar file: '../libs/servlet-api-2.5.jar'
+2021-07-30 02:11:14,474 [INFO] Path to jar file: '../libs/javase-3.3.2.jar'
+2021-07-30 02:11:14,481 [INFO] Path to jar file: '../libs/backendless.jar'
+2021-07-30 02:11:14,482 [INFO] Path to jar file: '../libs/core-3.3.2.jar'
+2021-07-30 02:11:14,513 [INFO] In target directory '../libs' present 4 jar files
+2021-07-30 02:11:14,513 [INFO] Service classes size from libs: 0
+2021-07-30 02:11:14,516 [INFO] Service classes size from classes: 1
+2021-07-30 02:11:14,517 [INFO] Run dependency analyzer for app: B5476DA3-1917-729F-FF82-C4DF130C3800
+ClassPath: /Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/servlet-api-2.5.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/javase-3.3.2.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/backendless.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/core-3.3.2.jar
+2021-07-30 02:11:14,519 [INFO] Analyze service: com.greentogo.services.LocationUpdate
+2021-07-30 02:11:14,680 [INFO] Build successfully: 0 event handlers and 0 timers and 1 service
+2021-07-30 02:11:14,681 [WARN] IMPORTANT! The business logic code will be deployed to model "default".
+Any business logic which is already deployed on the server in that model
+will be removed and replaced with the code from your current project.
+If this is an undesired behavior, stop now and set a different deployment model
+either by using the -model argument or changing the model name in runner.properties.
+2021-07-30 02:11:15,570 [INFO] Publishing 0 event handlers and 0 timers and 1 service to the server… 
+2021-07-30 02:11:18,488 [INFO] Successfully published all event handlers and timers. 
+2021-07-30 02:11:18,488 [INFO] If you connected to coderunner for debug - please stop debugging
+2021-07-30 02:11:18,489 [INFO] CodeRunner will shutdown now
+2021-07-30 02:11:18,490 [INFO] Debugging Utility disconnected successfully
+2021-07-30 02:11:18,490 [INFO] Thank you for using Backendless
+2021-07-30 02:12:59,364 [INFO] Local Date and Time: 2021-07-30T02:12:59.363162
+2021-07-30 02:12:59,370 [INFO] JDK from "JAVA_HOME" - /Library/Java/JavaVirtualMachines/liberica-jdk-14.jdk/Contents/Home
+2021-07-30 02:12:59,416 [INFO] CodeRunner(tm) Backendless Debugging Utility
+2021-07-30 02:12:59,417 [INFO] Copyright(C) 2021 Backendless Corp. All rights reserved. 
+2021-07-30 02:12:59,418 [INFO] Build date: 2021-07-28T06:43:30Z
+Version: 6.4.5
+Build id: 214281
+VCS revision: 428faba86095675360683d3a9e3d668dce31ee06
+2021-07-30 02:12:59,418 [INFO] CodeRunner session is running for 2 hours and will be terminated on 04:12:59.418272[UTC]
+2021-07-30 02:12:59,437 [INFO] Management port is absent, management server not started
+2021-07-30 02:12:59,597 [INFO] Parsing event model...
+2021-07-30 02:12:59,977 [INFO] Path to jar file: '../libs/servlet-api-2.5.jar'
+2021-07-30 02:12:59,978 [INFO] Path to jar file: '../libs/javase-3.3.2.jar'
+2021-07-30 02:12:59,986 [INFO] Path to jar file: '../libs/backendless.jar'
+2021-07-30 02:12:59,986 [INFO] Path to jar file: '../libs/core-3.3.2.jar'
+2021-07-30 02:13:00,018 [INFO] In target directory '../libs' present 4 jar files
+2021-07-30 02:13:00,018 [INFO] Service classes size from libs: 0
+2021-07-30 02:13:00,021 [INFO] Service classes size from classes: 1
+2021-07-30 02:13:00,023 [INFO] Run dependency analyzer for app: B5476DA3-1917-729F-FF82-C4DF130C3800
+ClassPath: /Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/servlet-api-2.5.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/javase-3.3.2.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/backendless.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/core-3.3.2.jar
+2021-07-30 02:13:00,023 [INFO] Analyze service: com.greentogo.services.LocationUpdate
+2021-07-30 02:13:00,175 [INFO] Build successfully: 0 event handlers and 0 timers and 1 service
+2021-07-30 02:13:00,176 [WARN] IMPORTANT! The business logic code will be deployed to model "default".
+Any business logic which is already deployed on the server in that model
+will be removed and replaced with the code from your current project.
+If this is an undesired behavior, stop now and set a different deployment model
+either by using the -model argument or changing the model name in runner.properties.
+2021-07-30 02:13:01,040 [INFO] Publishing 0 event handlers and 0 timers and 1 service to the server… 
+2021-07-30 02:13:04,161 [INFO] Successfully published all event handlers and timers. 
+2021-07-30 02:13:04,161 [INFO] If you connected to coderunner for debug - please stop debugging
+2021-07-30 02:13:04,161 [INFO] CodeRunner will shutdown now
+2021-07-30 02:13:04,162 [INFO] Debugging Utility disconnected successfully
+2021-07-30 02:13:04,163 [INFO] Thank you for using Backendless
+2021-07-30 02:14:44,603 [INFO] Local Date and Time: 2021-07-30T02:14:44.602049
+2021-07-30 02:14:44,609 [INFO] JDK from "JAVA_HOME" - /Library/Java/JavaVirtualMachines/liberica-jdk-14.jdk/Contents/Home
+2021-07-30 02:14:44,654 [INFO] CodeRunner(tm) Backendless Debugging Utility
+2021-07-30 02:14:44,654 [INFO] Copyright(C) 2021 Backendless Corp. All rights reserved. 
+2021-07-30 02:14:44,655 [INFO] Build date: 2021-07-28T06:43:30Z
+Version: 6.4.5
+Build id: 214281
+VCS revision: 428faba86095675360683d3a9e3d668dce31ee06
+2021-07-30 02:14:44,656 [INFO] CodeRunner session is running for 2 hours and will be terminated on 04:14:44.656009[UTC]
+2021-07-30 02:14:44,677 [INFO] Management port is absent, management server not started
+2021-07-30 02:14:44,831 [INFO] Parsing event model...
+2021-07-30 02:14:45,216 [INFO] Path to jar file: '../libs/servlet-api-2.5.jar'
+2021-07-30 02:14:45,216 [INFO] Path to jar file: '../libs/javase-3.3.2.jar'
+2021-07-30 02:14:45,225 [INFO] Path to jar file: '../libs/backendless.jar'
+2021-07-30 02:14:45,225 [INFO] Path to jar file: '../libs/core-3.3.2.jar'
+2021-07-30 02:14:45,256 [INFO] In target directory '../libs' present 4 jar files
+2021-07-30 02:14:45,257 [INFO] Service classes size from libs: 0
+2021-07-30 02:14:45,259 [INFO] Service classes size from classes: 1
+2021-07-30 02:14:45,260 [INFO] Run dependency analyzer for app: B5476DA3-1917-729F-FF82-C4DF130C3800
+ClassPath: /Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/servlet-api-2.5.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/javase-3.3.2.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/backendless.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/core-3.3.2.jar
+2021-07-30 02:14:45,261 [INFO] Analyze service: com.greentogo.services.LocationUpdate
+2021-07-30 02:14:45,413 [INFO] Build successfully: 0 event handlers and 0 timers and 1 service
+2021-07-30 02:14:45,414 [WARN] IMPORTANT! The business logic code will be deployed to model "default".
+Any business logic which is already deployed on the server in that model
+will be removed and replaced with the code from your current project.
+If this is an undesired behavior, stop now and set a different deployment model
+either by using the -model argument or changing the model name in runner.properties.
+2021-07-30 02:14:46,201 [INFO] Publishing 0 event handlers and 0 timers and 1 service to the server… 
+2021-07-30 02:14:48,967 [INFO] Successfully published all event handlers and timers. 
+2021-07-30 02:14:48,967 [INFO] If you connected to coderunner for debug - please stop debugging
+2021-07-30 02:14:48,967 [INFO] CodeRunner will shutdown now
+2021-07-30 02:14:48,968 [INFO] Debugging Utility disconnected successfully
+2021-07-30 02:14:48,969 [INFO] Thank you for using Backendless
+2021-07-30 10:23:10,977 [INFO] Local Date and Time: 2021-07-30T10:23:10.975913
+2021-07-30 10:23:10,984 [INFO] JDK from "JAVA_HOME" - /Library/Java/JavaVirtualMachines/liberica-jdk-14.jdk/Contents/Home
+2021-07-30 10:23:11,029 [INFO] CodeRunner(tm) Backendless Debugging Utility
+2021-07-30 10:23:11,029 [INFO] Copyright(C) 2021 Backendless Corp. All rights reserved. 
+2021-07-30 10:23:11,030 [INFO] Build date: 2021-07-28T06:43:30Z
+Version: 6.4.5
+Build id: 214281
+VCS revision: 428faba86095675360683d3a9e3d668dce31ee06
+2021-07-30 10:23:11,031 [INFO] CodeRunner session is running for 2 hours and will be terminated on 12:23:11.030940[UTC]
+2021-07-30 10:23:11,053 [INFO] Management port is absent, management server not started
+2021-07-30 10:23:11,230 [INFO] Parsing event model...
+2021-07-30 10:23:11,639 [INFO] Path to jar file: '../libs/servlet-api-2.5.jar'
+2021-07-30 10:23:11,639 [INFO] Path to jar file: '../libs/javase-3.3.2.jar'
+2021-07-30 10:23:11,652 [INFO] Path to jar file: '../libs/backendless.jar'
+2021-07-30 10:23:11,652 [INFO] Path to jar file: '../libs/core-3.3.2.jar'
+2021-07-30 10:23:11,690 [INFO] In target directory '../libs' present 4 jar files
+2021-07-30 10:23:11,690 [INFO] Service classes size from libs: 0
+2021-07-30 10:23:11,694 [INFO] Service classes size from classes: 1
+2021-07-30 10:23:11,696 [INFO] Run dependency analyzer for app: B5476DA3-1917-729F-FF82-C4DF130C3800
+ClassPath: /Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/servlet-api-2.5.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/javase-3.3.2.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/backendless.jar:/Users/justinjang/Downloads/GreenToGo__JAVA_default_coding/libs/core-3.3.2.jar
+2021-07-30 10:23:11,697 [INFO] Analyze service: com.greentogo.services.LocationUpdate
+2021-07-30 10:23:11,869 [INFO] Build successfully: 0 event handlers and 0 timers and 1 service
+2021-07-30 10:23:11,870 [WARN] IMPORTANT! The business logic code will be deployed to model "default".
+Any business logic which is already deployed on the server in that model
+will be removed and replaced with the code from your current project.
+If this is an undesired behavior, stop now and set a different deployment model
+either by using the -model argument or changing the model name in runner.properties.
+2021-07-30 10:23:12,917 [INFO] Publishing 0 event handlers and 0 timers and 1 service to the server… 
+2021-07-30 10:23:15,901 [INFO] Successfully published all event handlers and timers. 
+2021-07-30 10:23:15,901 [INFO] If you connected to coderunner for debug - please stop debugging
+2021-07-30 10:23:15,901 [INFO] CodeRunner will shutdown now
+2021-07-30 10:23:15,902 [INFO] Debugging Utility disconnected successfully
+2021-07-30 10:23:15,903 [INFO] Thank you for using Backendless
